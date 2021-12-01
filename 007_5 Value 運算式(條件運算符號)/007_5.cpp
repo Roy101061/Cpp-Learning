@@ -51,18 +51,7 @@ int main(){
 	}
 	*/
 	
-	int a = 5, b = 6, c = 7;
-	bool d = ++a > b-- >= c--;
-	
-	// ++a >= b--
-	// a = a + 1 => a = 6
-	// a > b => false
-	// b = b -1 => b = 5
-	
-	cout<<"a = "<< a <<endl;
-	cout<<"b = "<< b <<endl;
-	cout<<"c = "<< c <<endl;
-	cout<<"d = "<< d <<endl;
+
 	
 	return 0;
 }
