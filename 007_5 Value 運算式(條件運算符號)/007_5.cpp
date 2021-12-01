@@ -39,9 +39,13 @@ int main(){
 	*/
 	
 	/*
-	int a = 5, c = 7;
-	bool b = !(a > c);
-	cout<<b<<"\n";
+	int a = 3, c = 7;
+	if(!(a > c)){
+		cout<<"Hello\n";
+	}
+	if(a <= c){
+		cout<<"Hello\n";
+	}
 	*/
 	
 	/*
@@ -51,7 +55,13 @@ int main(){
 	}
 	*/
 	
-
+	
+	//( §PÂ_ ? True : False ) => ()¥i¬Ù²¤ 
+	
+	int a = 5, b = 6;
+	int c = ( a > b ? a - b : b - a );
+	cout<<c;
+	
 	
 	return 0;
 }
