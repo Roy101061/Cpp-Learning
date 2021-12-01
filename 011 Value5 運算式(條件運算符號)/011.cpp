@@ -56,7 +56,7 @@ int main(){
 	*/
 	
 	
-	//( §PÂ_ ? True : False ) => ()¥i¬Ù²¤ 
+	//( 判斷 ? True : False ) => ()可省略 
 	
 	int a = 5, b = 6;
 	int c = ( a > b ? a - b : b - a );
