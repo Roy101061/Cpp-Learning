@@ -4,13 +4,13 @@ int main(){
    int a,b;
    cin>>a>>b;
    if(a>b){
-      cout
+      cout<<a<<" > "<<b;
    }
-   else if(){
-      
+   else if(a<b){
+      cout<<a<<" < "<<b;
    }
    else{
-      
+      cout<<a<<" = "<<b;
    }
    return 0;
 
