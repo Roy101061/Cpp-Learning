@@ -16,5 +16,9 @@ int main(){
 	return 0;
 	*/
 	
-	
+	double a = 1.234;
+	int b = 123 * 456 * a;       //123*456*1.234
+	int c = 123 * 456 * (int)a;  //123*456*1
+	cout<<b<<endl<<c<<endl;
+	return 0;
 }
