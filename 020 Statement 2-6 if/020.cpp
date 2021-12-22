@@ -83,9 +83,6 @@ int main(){
 	if(!ans)
 		cout<<"Wrong name or password!/n";
 	
-	
-	
-	
 	return 0;
 }
 
