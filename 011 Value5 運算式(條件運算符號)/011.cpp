@@ -56,7 +56,7 @@ int main(){
 	*/
 	
 	
-	//( åˆ¤æ–· ? True : False ) => ()å¯çœç•¥ 
+	//( §PÂ_ ? True : False ) => ()¥i¬Ù²¤ 
 	
 	int a = 5, b = 6;
 	int c = ( a > b ? a - b : b - a );
@@ -65,3 +65,4 @@ int main(){
 	
 	return 0;
 }
+

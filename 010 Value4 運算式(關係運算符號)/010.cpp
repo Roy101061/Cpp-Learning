@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 	/* 
-	bool a = 0,b = 1,c = 2;  //é0å³ç‚ºçœŸ 
+	bool a = 0,b = 1,c = 2;  //«D0§Y¬°¯u 
 	cout<<a<<"\n";
 	cout<<b<<"\n";
 	cout<<c<<"\n";
@@ -24,7 +24,7 @@ int main(){
 	
 	/*
 	int a = 10,b = 20;
-	bool c = a == b;  // == => æ˜¯å¦ç›¸ç­‰ 
+	bool c = a == b;  // == => ¬O§_¬Ûµ¥ 
 	cout<<c<<"\n";
 	*/
 	

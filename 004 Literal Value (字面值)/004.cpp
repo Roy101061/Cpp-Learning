@@ -3,19 +3,19 @@
 using namespace std;
 
 int main(){
-	// int => æ•´æ•¸ 
+	// int => ¾ã¼Æ 
 	cout<<3<<endl;
 	
-	// float => æµ®é»žæ•¸(å°æ•¸) 
+	// float => ¯BÂI¼Æ(¤p¼Æ) 
 	cout<<3.14<<endl;
 	
-	// char => å­—å…ƒ 
+	// char => ¦r¤¸ 
 	cout<<'a'<<endl;
 	
-	// string => å­—ä¸² 
+	// string => ¦r¦ê 
 	cout<<"Hello!"<<endl;
 	
-	// bool => å¸ƒæž—(T/F)
+	// bool => ¥¬ªL(T/F)
 	cout<<8<<endl;
 	
 	return 0;

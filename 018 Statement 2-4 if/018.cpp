@@ -56,7 +56,7 @@ int main(){
 	if(e != 0)
 		cout<<"Num. "<< e <<" is bigger\n";
 	*/
-		// a lot bug
+		// ¡ôa lot bug
 	
 	int value,a,b,c,d,e;
 	cout<<"Please enter a number => ";
@@ -93,3 +93,4 @@ int main(){
 	
 	return 0;
 }
+

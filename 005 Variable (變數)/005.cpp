@@ -3,14 +3,14 @@
 using namespace std;
 
 int main(){
-	/* å®£å‘Š:  ( type: int / char / float(double) / bool / string ) 
+	/* «Å§i:  ( type: int / char / float(double) / bool / string ) 
 	1. type name
 	2. type name = value
 	3. type name,name,name
 	4. type name = value, name = value
 	*/
-	/* æŒ‡æ´¾:
-	name = value (å³é‚ŠæŒ‡æ´¾çµ¦å·¦é‚Š) 
+	/* «ü¬£:
+	name = value (¥kÃä«ü¬£µ¹¥ªÃä) 
 	*/
 	return 0;
 }

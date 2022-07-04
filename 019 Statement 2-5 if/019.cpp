@@ -16,7 +16,7 @@ int main(){
 	//	a=1;
 	//if(num%2==0)
 	//	a=2;
-	//  //Â¡Ã´ Wrong order
+	//  //¡ô Wrong order
 	
 	if(num%2==1)
 		a=1;
@@ -51,7 +51,7 @@ int main(){
 		cout<<"Odd\n";
 	if(a==2)
 		cout<<"Even/n";
-	*/  //Â¡Ã´ Wrong order
+	*/  //¡ô Wrong order
 	
 	cout<<"Please enter a number => ";
 	int num;
@@ -73,3 +73,4 @@ int main(){
 	
 	return 0;
 }
+

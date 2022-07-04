@@ -22,3 +22,4 @@ int main(){
 	cout<<b<<endl<<c<<endl;
 	return 0;
 }
+

@@ -1,4 +1,4 @@
-#include <iostream> //#include : å¼•å…¥æ¨™é ­æª”
+#include <iostream> //#include : ¤Þ¤J¼ÐÀYÀÉ 
 #include <math.h> //this project use function obtain in math.h
 
 using namespace std;
@@ -10,10 +10,11 @@ int main(){
 	cin>>a;
 	
 	double b = sqrt(a);
-	cout<<a<<"çš„å¹³æ–¹æ ¹æ˜¯:\n"<<b;
+	cout<<a<<"ªº¥­¤è®Ú¬O:\n"<<b;
 	
 	if(sqrt(a) > 10)
-		cout<<"å®ƒçš„å€¼å¤§æ–¼10\n";
+		cout<<"¥¦ªº­È¤j©ó10\n";
 	
 	return 0;
 }
+
