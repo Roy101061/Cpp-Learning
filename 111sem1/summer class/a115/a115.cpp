@@ -179,7 +179,7 @@ int main(){
 		else if(olc!=0){
 			int ans=999;
 			for(int n=0; n<5; n++){
-				if(ans>oln[n] && dln[n]!=0){
+				if(ans>oln[n] && oln[n]!=0){
 					ans=oln[n];
 				}
 			}
