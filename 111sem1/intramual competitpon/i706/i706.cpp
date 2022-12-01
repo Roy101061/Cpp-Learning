@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	std::ios_base::sync_with_stdio(false);  // 關閉cin & stdin同步, 減少程式負擔
+	std::ios_base::sync_with_stdio(false);  // 關閉cin & stdin同步, 減少程式負擔 https://blog.csdn.net/kernelxiao/article/details/108600862
 	std::cin.tie(0);
 	
     int n;
