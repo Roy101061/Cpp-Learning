@@ -6,10 +6,10 @@ int main(){
 	int board[5][5];
 	int temp;
 	bool chk=false, fa=false; //check, final_ans
-	int oln[5]={99}; //one_line_num
-	int dln[5]={99}; //double_line_num
+	int oln[5]={99,99,99,99,99}; //one_line_num
+	int dln[5]={99,99,99,99,99}; //double_line_num
 	int tln=99, tlnt=99; //triple_line_num 1&2
-	int olc=0, dlc=0, lc=0, pos=0; //one_line_counter, double_line_counter,, line_chk, position
+	int olc=0, dlc=0, lc=0, pos=0; //one_line_counter, double_line_counter, line_chk, position
 	
 	for(int n=0; n<5; n++){       //enter the board
 		for(int i=0; i<5; i++){
@@ -169,7 +169,7 @@ int main(){
 		}
 		else if(dlc!=0){
 			int ans=999;
-			for(int n=0; n<dlc; n++){
+			for(int n=0; n<5; n++){
 				if(ans>dln[n] && dln[n]!=0){
 					ans=dln[n];
 				}
@@ -178,7 +178,7 @@ int main(){
 		}
 		else if(olc!=0){
 			int ans=999;
-			for(int n=0; n<olc; n++){
+			for(int n=0; n<5; n++){
 				if(ans>oln[n] && dln[n]!=0){
 					ans=oln[n];
 				}
