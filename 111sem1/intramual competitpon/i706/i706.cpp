@@ -4,6 +4,9 @@ using namespace std;
 
 int main()
 {
+	std::ios_base::sync_with_stdio(false);  // 關閉cin & stdin同步, 減少程式負擔
+	std::cin.tie(0);
+	
     int n;
     while(cin>>n){
         int high[n-1];
@@ -39,3 +42,4 @@ int main()
 
     return 0;
 }
+
